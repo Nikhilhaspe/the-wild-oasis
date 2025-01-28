@@ -12,8 +12,8 @@ import { useLogin } from "./useLogin";
 
 function LoginForm() {
   const { isLogginIn, login } = useLogin();
-  const [email, setEmail] = useState("nikhil@google.com");
-  const [password, setPassword] = useState("12345678");
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
 
   function handleSubmit(event) {
     event.preventDefault();
